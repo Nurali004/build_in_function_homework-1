@@ -9,4 +9,8 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    return 2*(y**3 + x**2*y)
+
+y=int(input("sonni kiriting:"))
+x=int(input("sonni kiriting:"))
+print(main(x, y))
