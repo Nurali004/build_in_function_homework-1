@@ -9,4 +9,8 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    return
+    return (x**n + n**x)
+
+n=int(input("sonni kiriting:"))
+x=int(input("sonni kiriting:"))
+print(main(n, x))
