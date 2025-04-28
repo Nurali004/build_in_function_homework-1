@@ -8,4 +8,8 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    return
+    return 3*(n+1)**2
+
+n=float(input("sonni kiriting: "))
+
+print(main(n))
